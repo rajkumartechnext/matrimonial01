@@ -428,7 +428,7 @@ function Page() {
 
           <Modal.Body>
             <p className="profile-popup-text">
-              Help us understand why you are reporting{" "}
+              Help us understand why you are reporting
               <strong>{profile.name}</strong>.
             </p>
 

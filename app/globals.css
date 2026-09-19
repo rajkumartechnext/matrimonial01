@@ -10067,7 +10067,8 @@ nav.navbar {
   padding: 0;
 }
 
-a.brand-link img {
+a.brand-link img,
+a.account-logo img {
   width: 157px;
 }
 
@@ -10083,6 +10084,11 @@ a.brand-link img {
   a.brand-link img {
     width: 115px;
     margin-left: 8px;
+  }
+
+  a.account-logo img {
+    width: 98px;
+    margin-left: 0;
   }
 
   .accordion-heading h2 {
