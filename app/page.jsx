@@ -248,7 +248,7 @@ function Page() {
           <Container>
             <Row className="align-items-center">
               <Col lg={7}>
-                <div className="choose-partner-content">
+                <div className="choose-partner-content" data-aos="fade-right">
                   <div className="experience-header">
                     <span className="experience-tag">Partner Preferences</span>
                     <h2>
@@ -302,7 +302,7 @@ function Page() {
               </Col>
 
               <Col lg={5}>
-                <div className="choose-partner-info">
+                <div className="choose-partner-info" data-aos="fade-left">
                   <img src="/images/about4.png" alt="" className="img-fluid" />
                 </div>
               </Col>
