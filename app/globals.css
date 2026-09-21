@@ -935,7 +935,7 @@ a {
 
 .hero-content h1 span {
   display: block;
-  color: #fff;
+  color: #ff6b80;
   font-family: "Archivo Black", sans-serif;
   font-size: clamp(52px, 5vw, 76px);
   font-weight: 700;
@@ -10191,9 +10191,8 @@ a.footer-logo img {
 }
 
 .choose-partner-points span {
-  color: rgb(234 55 81);
-  background: rgb(255 187 80);
-  border: 1px solid rgb(247 154 6);
+  color: #ea3751;
+  background: #fde5ec;
   border-radius: 9px;
   justify-content: center;
   align-items: center;
