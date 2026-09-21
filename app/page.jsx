@@ -7,6 +7,14 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Heart, ShieldCheck, Search } from "lucide-react";
+import {
+  HeartHandshake,
+  UserRound,
+  MapPin,
+  GraduationCap,
+  BriefcaseBusiness,
+  UsersRound,
+} from "lucide-react";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -235,6 +243,72 @@ function Page() {
             </Col>
           </Row>
         </Container>
+
+        <div className="choose-partner-section">
+          <Container>
+            <Row className="align-items-center">
+              <Col lg={7}>
+                <div className="choose-partner-content">
+                  <div className="experience-header">
+                    <span className="experience-tag">Partner Preferences</span>
+                    <h2>
+                      Choose Your <span>Ideal Partner</span>
+                    </h2>
+                  </div>
+
+                  <p>
+                    Everyone has their own idea of a meaningful relationship.
+                    Set your partner preferences and tell us what matters most
+                    to you when looking for a life partner.
+                  </p>
+
+                  <p>
+                    You can choose preferences based on age, height, location,
+                    education, profession, religion, lifestyle, family values,
+                    and other important qualities. Your preferences help us show
+                    you profiles that are more relevant to what you are looking
+                    for.
+                  </p>
+
+                  <div className="choose-partner-points">
+                    <div>
+                      <span>01</span>
+                      <p>Set your preferred age and height range.</p>
+                    </div>
+
+                    <div>
+                      <span>02</span>
+                      <p>
+                        Choose preferred location, education and profession.
+                      </p>
+                    </div>
+
+                    <div>
+                      <span>03</span>
+                      <p>
+                        Define religion, community and lifestyle preferences.
+                      </p>
+                    </div>
+
+                    <div>
+                      <span>04</span>
+                      <p>
+                        Update your preferences whenever your requirements
+                        change.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+
+              <Col lg={5}>
+                <div className="choose-partner-info">
+                  <img src="/images/about4.png" alt="" className="img-fluid" />
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </section>
 
       <section className="pricing-section">
