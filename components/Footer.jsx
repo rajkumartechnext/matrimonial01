@@ -69,34 +69,6 @@ const Footer = () => {
                 </p>
 
                 {/* Trust Badge */}
-                <div className="footer-trust">
-                  <div className="trust-icon">
-                    <ShieldCheck size={19} />
-                  </div>
-
-                  <div>
-                    <strong>Safe & Verified</strong>
-                    <span>Trusted matrimonial platform</span>
-                  </div>
-                </div>
-
-                <div className="footer-socials">
-                  <a href="#" aria-label="Facebook">
-                    <FontAwesomeIcon icon={faFacebookF} />
-                  </a>
-
-                  <a href="#" aria-label="Instagram">
-                    <FontAwesomeIcon icon={faInstagram} />
-                  </a>
-
-                  <a href="#" aria-label="YouTube">
-                    <FontAwesomeIcon icon={faYoutube} />
-                  </a>
-
-                  <a href="#" aria-label="X">
-                    <FontAwesomeIcon icon={faXTwitter} />
-                  </a>
-                </div>
               </div>
             </div>
 
@@ -232,6 +204,42 @@ const Footer = () => {
                   <div>
                     <span>Our Office</span>
                     <p>Kolkata, West Bengal, India</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-md-7">
+              <div className="footer-socials">
+                <a href="#" aria-label="Facebook">
+                  <FontAwesomeIcon icon={faFacebookF} />
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                  <FontAwesomeIcon icon={faYoutube} />
+                </a>
+
+                <a href="#" aria-label="X">
+                  <FontAwesomeIcon icon={faXTwitter} />
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="ml-auto">
+                <div className="footer-trust">
+                  <div className="trust-icon">
+                    <ShieldCheck size={19} />
+                  </div>
+
+                  <div>
+                    <strong>Safe & Verified</strong>
+                    <span>Trusted matrimonial platform</span>
                   </div>
                 </div>
               </div>
