@@ -108,6 +108,14 @@ function Page() {
           <Carousel.Item>
             <img
               className="d-block w-100"
+              src="/images/hero5.png"
+              alt="Happy couple"
+            />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
               src="/images/hero2.png"
               alt="Couple together"
             />
