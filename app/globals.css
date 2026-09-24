@@ -9370,6 +9370,11 @@ button.reason-delete {
   text-transform: uppercase;
 }
 
+section.faq-section {
+  background: radial-gradient(circle at 10% 20%, #c84b6b12, #0000 30%), radial-gradient(circle at 90% 80%, #c84b6b0f, #0000 30%), snow;
+  padding: 45px 0;
+}
+
 .about-breadcrumb-text h1 {
   color: #292929;
   margin: 0 0 12px;
