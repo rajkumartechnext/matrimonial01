@@ -3,13 +3,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import React from "react";
-import {
-  ChevronRight,
-  Home,
-  HandHeart,
-  ShieldLock,
-  UserRound,
-} from "lucide-react";
+import { ChevronRight, Home } from "lucide-react";
 import Accordion from "react-bootstrap/Accordion";
 import AccordionItem from "react-bootstrap/AccordionItem";
 import AccordionHeader from "react-bootstrap/AccordionHeader";

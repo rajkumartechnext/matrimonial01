@@ -341,9 +341,6 @@ function Header() {
                   onMouseEnter={clearCloseTimeout}
                   onMouseLeave={handleBrowseMouseLeave}
                 >
-                  {/* =========================
-                      CATEGORY LIST
-                      ========================= */}
                   <ul className="category-list">
                     {categories.map((cat) => {
                       const IconComponent = cat.icon;
@@ -376,9 +373,6 @@ function Header() {
                             />
                           </div>
 
-                          {/* =================================
-                              MOBILE / TABLET PANEL ONLY
-                              ================================= */}
                           {isActive && (
                             <div className="mobile-category-panel">
                               <div className="category-panel">
@@ -416,9 +410,6 @@ function Header() {
                     })}
                   </ul>
 
-                  {/* =================================
-                      DESKTOP PANEL ONLY
-                      ================================= */}
                   {activeCategory && (
                     <div className="category-panel-wrapper">
                       {categories
@@ -464,17 +455,15 @@ function Header() {
             </li>
 
             <li className="menu-item">
-              <Link href="/register" className="menu-link">
+              <Link href="/help" className="menu-link">
                 Help?
               </Link>
             </li>
 
-            {/* Search Bar */}
             <li className="menu-item search-item">
               <ProfileSearch />
             </li>
 
-            {/* Login */}
             <li className="menu-item cta-item">
               <Login />
             </li>

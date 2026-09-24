@@ -5,17 +5,14 @@ import Select from "react-select";
 import { Search, ChevronDown, SlidersHorizontal } from "lucide-react";
 
 const initialFilters = {
-  // Looking For
   bride: false,
   groom: false,
 
-  // Single Select
   minAge: "",
   maxAge: "",
   minHeight: "",
   maxHeight: "",
 
-  // Multi Select
   religion: [],
   motherTongue: [],
   income: [],

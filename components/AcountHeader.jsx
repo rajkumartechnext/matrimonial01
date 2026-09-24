@@ -234,7 +234,7 @@ function AcountHeader() {
                   </Link>
 
                   <Link
-                    href="/accountSettings"
+                    href="/help"
                     className="profile-dropdown-link"
                     onClick={() => setProfileOpen(false)}
                   >
