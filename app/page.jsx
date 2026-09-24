@@ -536,7 +536,7 @@ function Page() {
         </Container>
       </section>
 
-      <section className="testimonial mb-5">
+      <section className="testimonial">
         <div className="experience-header" data-aos="fade-right">
           <span className="experience-tag">WHY CHOOSE US</span>
           <h2>
@@ -587,7 +587,7 @@ function Page() {
         </div>
       </section>
 
-      <section className="faq-section mb-5">
+      <section className="home faq-section">
         <Container>
           <div className="accordian">
             <div className="experience-header text-center">
