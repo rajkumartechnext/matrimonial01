@@ -59,7 +59,7 @@ const Footer = () => {
               <div className="footer-brand">
                 <a href="/" className="footer-logo">
                   {/* <span>Logo Here</span> */}
-                  <img src="images/logo-footer.png" alt="" />
+                  <img src="/images/logo-footer.png" alt="" />
                 </a>
 
                 <p className="footer-description">
@@ -230,7 +230,7 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="col-md-4">
+            {/* <div className="col-md-4">
               <div className="ml-auto">
                 <div className="footer-trust">
                   <div className="trust-icon">
@@ -243,7 +243,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Newsletter */}

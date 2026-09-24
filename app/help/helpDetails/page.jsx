@@ -32,6 +32,11 @@ function page() {
                 <span>Home</span>
               </Link>
 
+              <Link href="/">
+                <ChevronRight size={15} />
+                <span>Help</span>
+              </Link>
+
               <ChevronRight size={15} />
 
               <span className="active">Profile & Selfie Verification</span>
