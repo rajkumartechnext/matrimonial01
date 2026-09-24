@@ -32,7 +32,7 @@ function page() {
                 <span>Home</span>
               </Link>
 
-              <Link href="/">
+              <Link href="/help">
                 <ChevronRight size={15} />
                 <span>Help</span>
               </Link>
