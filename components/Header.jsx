@@ -6,10 +6,8 @@ import { useEffect, useRef, useState } from "react";
 import {
   ChevronDown,
   ChevronRight,
-  LogIn,
   Menu,
   X,
-  Search,
   Languages,
   Users,
   Church,
@@ -163,6 +161,7 @@ function Header() {
   }, []);
 
   // Close mega menu on outside click
+
   useEffect(() => {
     if (!openMegaMenu) return;
 
@@ -205,6 +204,7 @@ function Header() {
   }, []);
 
   // Prevent body scroll when mobile menu is open
+
   useEffect(() => {
     if (isMobileMenuOpen) {
       document.body.style.overflow = "hidden";
@@ -344,9 +344,7 @@ function Header() {
                   <ul className="category-list">
                     {categories.map((cat) => {
                       const IconComponent = cat.icon;
-
                       const isActive = activeCategory === cat.id;
-
                       return (
                         <li
                           key={cat.id}

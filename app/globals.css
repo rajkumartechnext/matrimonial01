@@ -8,12 +8,13 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden !important;
 }
 
 body {
   color: #333;
   line-height: 1.6;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 a {
@@ -2103,7 +2104,7 @@ button.cta-btn-2nd {
 .experience-header h2 {
   color: #292929;
   margin: 0 0 15px;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -4290,10 +4291,9 @@ a.account-profile svg {
     display: flex;
   }
 
-  .premium-btn {
+  /* .premium-btn {
     display: none;
-  }
-
+  } */
   .account-header-container {
     height: 68px;
     padding: 0 16px;
@@ -9407,7 +9407,7 @@ section.home.faq-section {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: #777777;
+  color: #646363;
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
@@ -9419,7 +9419,7 @@ section.home.faq-section {
 }
 
 .about-breadcrumb-nav svg {
-  color: #b6b6b6;
+  color: #646363;
 }
 
 .about-breadcrumb-nav .active {
@@ -9460,7 +9460,7 @@ section.home.faq-section {
 
   .about-breadcrumb-text h1 {
     margin-bottom: 10px;
-    font-size: 31px;
+    font-size: 25px;
   }
 
   .about-breadcrumb-text p {
@@ -9469,8 +9469,8 @@ section.home.faq-section {
   }
 
   .about-breadcrumb-nav {
-    padding: 10px 14px;
-    gap: 6px;
+    gap: 2px;
+    padding: 8px 10px;
   }
 
   .about-breadcrumb-nav a,
@@ -9485,7 +9485,7 @@ section.home.faq-section {
   }
 
   .about-breadcrumb-text h1 {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .about-breadcrumb-text p {
@@ -9581,7 +9581,7 @@ section.home.faq-section {
 .about-value-card {
   height: 100%;
   padding: 32px 28px;
-  border: 1px solid #ffe7ec;
+  border: 1px solid #fdd8df;
   border-radius: 16px;
   background: #fff;
   position: relative;
@@ -10123,6 +10123,14 @@ a.account-logo img {
     font-size: 13px;
     line-height: 1.7;
   }
+
+  .choose-partner-info {
+    margin-top: 45px;
+  }
+
+  .contact-info-card {
+    padding: 17px;
+  }
 }
 
 a.footer-logo img {
@@ -10248,7 +10256,7 @@ a.footer-logo img {
 .help-card::after {
   content: "›";
   position: absolute;
-  right: 29%;
+  right: 25px;
   top: 50%;
   transform: translateY(-50%) translateX(-8px);
   color: #e93773;

@@ -50,15 +50,12 @@ const Footer = () => {
         </div>
       </div> */}
 
-      {/* Main Footer */}
       <div className="footer-main">
         <div className="container-fluid">
           <div className="row gy-5">
-            {/* Brand */}
             <div className="col-lg-3 col-md-6">
               <div className="footer-brand">
                 <a href="/" className="footer-logo">
-                  {/* <span>Logo Here</span> */}
                   <img src="/images/logo-footer.png" alt="" />
                 </a>
 
@@ -67,12 +64,9 @@ const Footer = () => {
                   lasting relationships. Your journey to a beautiful
                   relationship starts here.
                 </p>
-
-                {/* Trust Badge */}
               </div>
             </div>
 
-            {/* Quick Links */}
             <div className="col-lg-2 col-md-6 col-6">
               <div className="footer-column">
                 <h5>Quick Links</h5>
@@ -109,7 +103,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Support */}
             <div className="col-lg-2 col-md-6 col-6">
               <div className="footer-column">
                 <h5>Support</h5>
@@ -139,7 +132,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Support */}
             <div className="col-lg-2 col-md-6 col-6">
               <div className="footer-column">
                 <h5>Legal</h5>
@@ -169,7 +161,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Contact */}
             <div className="col-lg-3 col-md-6">
               <div className="footer-column footer-contact">
                 <h5>Get In Touch</h5>
