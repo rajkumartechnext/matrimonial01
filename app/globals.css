@@ -10739,7 +10739,7 @@ a.footer-logo img {
 .tag-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 6px;
 }
 
 .tag-list a {
