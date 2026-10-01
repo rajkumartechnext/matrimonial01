@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-full flex flex-col">
+      <body>
         <Toaster position="bottom-center" reverseOrder={false} />
         {children}
       </body>

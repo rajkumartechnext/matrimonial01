@@ -99,6 +99,13 @@ const Footer = () => {
                       Success Stories
                     </a>
                   </li>
+
+                  <li>
+                    <a href="/blog">
+                      <ChevronRight size={14} />
+                      Blog
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
