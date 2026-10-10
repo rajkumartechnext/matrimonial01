@@ -51,6 +51,17 @@ const successStories = [
     weddingDate: "14 February 2024",
   },
   {
+    image: "/images/wedding1.mp4",
+    date: "December 12, 2024",
+    category: "Forever Starts Here",
+    title: "A Beautiful Promise for Tomorrow",
+    description:
+      "What began as a thoughtful match soon became a lifelong commitment. They connected through their shared values, supported each other's ambitions, and found happiness in the little things. Their story reminds us that meaningful relationships grow stronger through respect, patience, and genuine affection.",
+    coupleNames: ["Debjit Chatterjee", "Ishita Dey"],
+    profileImages: ["/images/matches/no-1.jpg", "/images/matches/no-3.jpg"],
+    weddingDate: "12 December 2024",
+  },
+  {
     image: "/images/hero4.png",
     date: "November 20, 2024",
     category: "Together Is a Beautiful Place",
@@ -71,17 +82,6 @@ const successStories = [
     coupleNames: ["Kunal Banerjee", "Moumita Paul"],
     profileImages: ["/images/matches/no-2.jpg", "/images/matches/no-5.jpg"],
     weddingDate: "8 December 2024",
-  },
-  {
-    image: "/images/wedding1.mp4",
-    date: "December 12, 2024",
-    category: "Forever Starts Here",
-    title: "A Beautiful Promise for Tomorrow",
-    description:
-      "What began as a thoughtful match soon became a lifelong commitment. They connected through their shared values, supported each other's ambitions, and found happiness in the little things. Their story reminds us that meaningful relationships grow stronger through respect, patience, and genuine affection.",
-    coupleNames: ["Debjit Chatterjee", "Ishita Dey"],
-    profileImages: ["/images/matches/no-1.jpg", "/images/matches/no-3.jpg"],
-    weddingDate: "12 December 2024",
   },
 ];
 
@@ -261,8 +261,8 @@ function Page() {
                       <h5>
                         <a href="/matches/profileDetails">
                           {story.coupleNames[0]}
-                        </a>
-                        and
+                        </a>{" "}
+                        and{" "}
                         <a href="/matches/profileDetails">
                           {story.coupleNames[1]}
                         </a>
