@@ -9,9 +9,12 @@ import {
   Plus,
   Upload,
   X,
+  Home,
+  ChevronRight,
 } from "lucide-react";
 import { Col, Container, Row, Modal } from "react-bootstrap";
 import { useRef, useState } from "react";
+import Link from "next/link";
 
 const successStories = [
   {
@@ -194,15 +197,48 @@ function Page() {
     <div>
       <Header />
 
-      <section className="success-stories-section">
-        <div className="experience-header text-center mb-4">
-          <span className="experience-tag">Success Stories</span>
-          <h2>
-            Helping You Find a <span>Meaningful Connection</span>
-          </h2>
-        </div>
-
+      <section className="about-breadcrumb">
         <Container>
+          <div className="about-breadcrumb-content">
+            <div className="about-breadcrumb-text">
+              <h1>Success Stories</h1>
+              <span className="about-breadcrumb-small">
+                Find Your Perfect Match
+              </span>
+            </div>
+
+            <nav className="about-breadcrumb-nav" aria-label="Breadcrumb">
+              <Link href="/">
+                <Home size={15} />
+                <span>Home</span>
+              </Link>
+
+              <ChevronRight size={15} />
+
+              <span className="active">Success Stories</span>
+            </nav>
+          </div>
+        </Container>
+      </section>
+
+      <section className="success-stories-section">
+        <Container>
+          <div className="d-flex justify-content-between align-items-center mb-4">
+            <div className="experience-header m-0">
+              <span className="experience-tag">Real Love Stories</span>
+              <h2>
+                Every Match Begins a <span>Beautiful Forever</span>
+              </h2>
+            </div>
+
+            <button className="floating-button" onClick={handleShow}>
+              <div className="floating-button-content">
+                <Plus size={20} />
+                <span>Add Story</span>
+              </div>
+            </button>
+          </div>
+
           <Row className="g-4">
             {successStories.map((story) => (
               <Col xl={6} md={6} sm={12} key={story.image}>
@@ -225,13 +261,13 @@ function Page() {
                       <h5>
                         <a href="/matches/profileDetails">
                           {story.coupleNames[0]}
-                        </a>{" "}
-                        and{" "}
+                        </a>
+                        and
                         <a href="/matches/profileDetails">
                           {story.coupleNames[1]}
                         </a>
                       </h5>
-                      <span>Software Engineer • {story.weddingDate}</span>
+                      <span>{story.weddingDate}</span>
                     </div>
                   </div>
 
@@ -308,15 +344,6 @@ function Page() {
           </Row>
         </Container>
       </section>
-
-      <div className="text-center mt-4 mb-4">
-        <button className="floating-button" onClick={handleShow}>
-          <div className="floating-button-content">
-            <Plus size={20} />
-            <span>Add Story</span>
-          </div>
-        </button>
-      </div>
 
       <Footer />
 
