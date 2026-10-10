@@ -6,7 +6,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Heart, ShieldCheck, Search, ChevronRight, Home } from "lucide-react";
+import { Heart, ShieldCheck, Search } from "lucide-react";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
